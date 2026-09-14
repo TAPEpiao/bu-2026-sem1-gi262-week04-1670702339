@@ -382,30 +382,43 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86fbaf664c0f73049ab5d67e60db4318, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Assignment.Assignment
-  as01Words: []
-  as02Numbers: 
-  as03Input: 
+  as01Words:
+  - test
+  as02Numbers: ffffffffffffffff000000000200000017000000
+  as03Input: )
   as04List:
     values: 
   as05List:
     values: []
   as06FirstDictionary:
-    entries: []
+    entries:
+    - key: apple
+      value: 3
+    - key: banana
+      value: 2
   as06SecondDictionary:
-    entries: []
+    entries:
+    - key: banana
+      value: 67
+    - key: cherry
+      value: 4
   as07List:
-    values: 
+    values: 010000000200000001000000
   as08Numbers: 
   as09Inventory:
     entries: []
-  as09ItemName: 
-  as09Quantity: 0
+  as09ItemName: Sword
+  as09Quantity: 67
   as10EventQueue:
     values: []
   as11PlayerStats:
-    entries: []
-  as11StatName: 
-  as11Value: 0
+    entries:
+    - key: Kills
+      value: 5
+    - key: Assists
+      value: 7
+  as11StatName: Kills
+  as11Value: 2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
